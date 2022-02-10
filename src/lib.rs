@@ -1,19 +1,8 @@
-
-mod tests {
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
 pub mod inpx{
     pub mod int {
         use std::io::stdin;
 
         static WRN: &str = "Could not read";
-
-        fn test() {
-            println!("Test");
-        }
 
         pub fn parse_i8() -> i8 {
             let mut s = String::new();
