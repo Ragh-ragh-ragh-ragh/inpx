@@ -1,0 +1,4 @@
+var searchIndex = JSON.parse('{\
+"lib":{"doc":"","t":[0,0,5,5,5,5,5,5,5,5,5,5,5,5],"n":["inpx","int","parse_i128","parse_i16","parse_i32","parse_i64","parse_i8","parse_isize","parse_u128","parse_u16","parse_u32","parse_u64","parse_u8","parse_usize"],"q":["lib","lib::inpx","lib::inpx::int","","","","","","","","","","",""],"d":["","","","","","","","","","","","","",""],"i":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"f":[null,null,[[],["i128",15]],[[],["i16",15]],[[],["i32",15]],[[],["i64",15]],[[],["i8",15]],[[],["isize",15]],[[],["u128",15]],[[],["u16",15]],[[],["u32",15]],[[],["u64",15]],[[],["u8",15]],[[],["usize",15]]],"p":[]}\
+}');
+if (window.initSearch) {window.initSearch(searchIndex)};
