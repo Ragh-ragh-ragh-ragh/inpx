@@ -1,3 +1,14 @@
+/*
+* Basic Structure:
+
+pub fn <Name>() -> <Result> {
+    let mut s = String::new();
+    stdin().read_line(&mut s).expect(WRN);
+    s.trim_end().parse::<Type>().unwrap()
+}
+
+*/
+
 pub mod int {
     use std::io::stdin;
 
@@ -76,3 +87,20 @@ pub mod int {
     }
 }
 
+pub mod float {
+    use std::io::stdin;
+
+    static WRN: &str = "Could not Read";
+    
+    pub fn parse_f32() -> f32 {
+        let mut s = String::new();
+        stdin().read_line(&mut s).expect(WRN);
+        s.trim_end().parse::<f32>().unwrap()
+    }
+
+    pub fn parse_f64() -> f64 {
+        let mut s = String::new();
+        stdin().read_line(&mut s).expect(WRN);
+        s.trim_end().parse::<f64>().unwrap()
+    }
+}
